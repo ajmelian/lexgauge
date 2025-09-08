@@ -1,0 +1,805 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "gdpr-gob-001",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "¿Existe un Registro de Actividades de Tratamiento (RoPA) completo y actualizado en los últimos 12 meses?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-gob-002",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "Valora el nivel de implantación de políticas y procedimientos de protección de datos (aprobados, comunicados y versionados).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-gob-003",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "¿Se ha designado Delegado/a de Protección de Datos (DPO) cuando es obligatorio y se han publicado sus datos de contacto?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-gob-004",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "Valora la cobertura y periodicidad de la formación y concienciación en privacidad para el personal.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-gob-005",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "¿Se realiza revisión anual de cumplimiento (auditorías internas/externas) y se documentan evidencias y planes de acción?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-gob-006",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "Valora la integración de Privacy by Design/Default en el ciclo de vida de productos y cambios (plantillas, revisiones, controles).",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-gob-007",
+      "normative": "GDPR",
+      "block": "Gobernanza y Responsabilidad",
+      "text": "¿Existe inventario de ficheros físicos/legados y su plan de reducción/seguridad documentado?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-base-001",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "¿Se ha identificado y documentado la base jurídica válida para cada tratamiento del RoPA?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-base-002",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "Valora la calidad y accesibilidad de las cláusulas/informaciones del art. 13/14 (capas, lenguaje claro, puntos de recogida).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-base-003",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "¿Existe procedimiento para gestionar derechos de interesados (acceso, rectificación, supresión, oposición, limitación, portabilidad) con SLAs definidos?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-base-004",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "Valora la trazabilidad de consentimientos y la posibilidad de revocación tan fácil como el otorgamiento.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-base-005",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "¿Se realizan EIPD (DPIA) para tratamientos de alto riesgo y se documentan decisiones/mitigaciones?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-base-006",
+      "normative": "GDPR",
+      "block": "Bases Legales y Derechos",
+      "text": "Valora el control de retenciones y plazos de conservación por categoría de dato y finalidad.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-sec-001",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "¿Existe política de control de accesos con MFA para datos personales y recertificación periódica de privilegios?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-sec-002",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "Valora el uso de cifrado en tránsito y en reposo para sistemas que tratan datos personales.",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-sec-003",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "¿Existe procedimiento de gestión de brechas (detección, evaluación de riesgo, notificación AEPD/interesados, lecciones aprendidas)?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-sec-004",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "Valora el nivel de pruebas de seguridad (vulnerabilidades, pentests) en sistemas con datos personales.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-sec-005",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "¿Seudonimizáis/minimizáis los datos personales cuando es posible (logs, entornos no productivos, analítica)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-sec-006",
+      "normative": "GDPR",
+      "block": "Seguridad y Brechas",
+      "text": "Valora la efectividad de copias de seguridad y restauración para sistemas con datos personales.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-prov-001",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "¿Existen contratos de encargo de tratamiento (art. 28) con todos los proveedores que acceden a datos personales?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-prov-002",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "Valora el proceso de due diligence y evaluación de riesgos de los encargados, incluido subprocesamiento.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-prov-003",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "¿Se identifican transferencias internacionales y se aplican garantías adecuadas (cláusulas tipo, TIA, decisiones de adecuación)?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-prov-004",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "Valora la gestión de registros y evidencias de auditorías/controles a proveedores.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "gdpr-prov-005",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "¿Existen cláusulas de seguridad, confidencialidad y notificación de incidentes en los contratos con encargados?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "gdpr-prov-006",
+      "normative": "GDPR",
+      "block": "Proveedores y Transferencias Internacionales",
+      "text": "Valora la gestión de finalización de contrato y devolución/borrado seguro de datos por el proveedor.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-gob-001",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "¿Existe política corporativa de ciberseguridad aprobada por la dirección y un responsable designado?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-gob-002",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "Valora la madurez del marco de gestión de riesgos (identificación, evaluación, tratamiento y aceptación).",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-gob-003",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "¿Se mantiene un inventario actualizado de activos críticos y dependencias (incluida TI/OT)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-gob-004",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "Valora la segregación de funciones y el modelo de tres líneas de defensa en ciberseguridad.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-gob-005",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "¿Se evalúa el riesgo de la cadena de suministro y se integra en el apetito de riesgo de la organización?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-gob-006",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "Valora la frecuencia y calidad de la formación/concienciación en ciberseguridad para todo el personal.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-gob-007",
+      "normative": "NIS2",
+      "block": "Gobernanza y Gestión de Riesgos",
+      "text": "¿Existe un programa de auditoría interna/externa con seguimiento de hallazgos de ciberseguridad?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-tech-001",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "¿Se aplica gestión de vulnerabilidades (inventario, parches prioritarios, SLA) sobre sistemas críticos?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-tech-002",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "Valora el despliegue de controles de acceso (MFA, principio de mínimo privilegio, recertificación).",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-tech-003",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "¿Se monitoriza seguridad (SIEM/EDR) y se definen casos de uso/alertas para amenazas relevantes?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-tech-004",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "Valora la segmentación de redes y la separación entre entornos (producción, pruebas, administración).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-tech-005",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "¿Existe cifrado en tránsito y reposo para datos sensibles y gestión segura de claves?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-tech-006",
+      "normative": "NIS2",
+      "block": "Medidas Técnicas y Operativas",
+      "text": "Valora la robustez de backups, periodicidad de pruebas de restauración y protección contra ransomware.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-inc-001",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "¿Existe plan de respuesta a incidentes con roles definidos, escalado y comunicación (incluida notificación a autoridades)?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-inc-002",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "Valora la capacidad de detección y tiempo medio de respuesta (MTTD/MTTR) según métricas internas.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-inc-003",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "¿Se realizan simulacros/tabletops de incidentes al menos una vez al año y se documentan lecciones aprendidas?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-inc-004",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "Valora la existencia y pruebas del BCP/DRP (RTO/RPO definidos y verificados).",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-inc-005",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "¿Se dispone de capacidad de monitorización 24x7 para servicios esenciales o acuerdos equivalentes?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-inc-006",
+      "normative": "NIS2",
+      "block": "Gestión de Incidentes y Continuidad",
+      "text": "Valora la coordinación con CERT/CSIRT sectorial y los procedimientos de notificación temprana.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-supply-001",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "¿Se aplican requisitos de seguridad a proveedores críticos (contratos, anexos, KPIs/SLAs)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-supply-002",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "Valora el proceso de evaluación de riesgos de terceros (due diligence inicial y periódica).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-supply-003",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "¿Se limita y supervisa el acceso de terceros a sistemas críticos (JIT, PAM, registros de actividad)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-supply-004",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "Valora la gestión de vulnerabilidades en componentes de terceros (SBOM, parches, advisories).",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "nis2-supply-005",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "¿Existe plan de salida/substitución de proveedores críticos para reducir riesgos de dependencia?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "nis2-supply-006",
+      "normative": "NIS2",
+      "block": "Cadena de Suministro y Proveedores",
+      "text": "Valora la visibilidad de eventos de seguridad del proveedor (reporting, auditorías, evidencias).",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-gob-001",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "¿El órgano de administración aprueba y supervisa el marco de gestión del riesgo TIC?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-gob-002",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "Valora la identificación de funciones críticas, tolerancias al riesgo y apetito de riesgo TIC.",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-gob-003",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "¿Existe inventario de activos TIC, interdependencias y clasificación por criticidad para servicios financieros críticos?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-gob-004",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "Valora la integración de continuidad y ciberresiliencia en la estrategia de negocio (RTO/RPO por servicio).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-gob-005",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "¿Se evalúa el riesgo TIC derivado de cambios/proyectos antes de su paso a producción (change risk assessment)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-gob-006",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "Valora la efectividad de controles de acceso, segregación de funciones y registros para funciones críticas.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-gob-007",
+      "normative": "DORA",
+      "block": "Gobernanza y Gestión de Riesgos TIC",
+      "text": "¿Se cuenta con métricas/KRIs para riesgo TIC y reporting periódico a la alta dirección?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-inc-001",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "¿Existe proceso de clasificación y notificación de incidentes TIC significativos según umbrales DORA?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-inc-002",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "Valora la capacidad de registro y análisis post-incidente para prevenir recurrencias.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-inc-003",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "¿Se realizan ejercicios de continuidad y crisis (incluida alta dirección) con frecuencia definida?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-inc-004",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "Valora la capacidad de recuperación dentro de los RTO establecidos para servicios críticos.",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-inc-005",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "¿Se monitorizan indicadores (MTTD/MTTR) y se informan regular y formalmente?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-inc-006",
+      "normative": "DORA",
+      "block": "Incidentes, Notificación y Resiliencia",
+      "text": "Valora la coordinación con autoridades competentes y planes de comunicación a clientes/mercado.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-test-001",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "¿Existe un plan de pruebas de resiliencia operativa que cubra escenarios de fallo y ciberataques?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-test-002",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "Valora la cobertura y frecuencia de pruebas de continuidad, failover y restauración de backups.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-test-003",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "¿Se realizan pruebas de penetración periódicas sobre funciones críticas y se gestionan los hallazgos?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-test-004",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "Valora el uso de pruebas de red team o TLPT (cuando apliquen) y su alineación con expectativas supervisoras.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-test-005",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "¿Se prueban planes de contingencia para proveedores TIC críticos (escenarios de caída/prolongada indisponibilidad)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-test-006",
+      "normative": "DORA",
+      "block": "Pruebas de Resiliencia Operativa",
+      "text": "Valora la calidad del tracking de remediaciones derivadas de pruebas y su cierre dentro de plazos.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-third-001",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "¿Existe un registro de acuerdos con terceros TIC que identifica servicios críticos/funciones importantes (CIFs)?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-third-002",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "Valora el proceso de due diligence previa a la contratación TIC (seguridad, solvencia, concentración).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-third-003",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "¿Los contratos incluyen cláusulas de seguridad, acceso/auditoría, localización de datos, notificación de incidentes y salida ordenada?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-third-004",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "Valora la supervisión continua del rendimiento/seguridad del proveedor (KPIs/KRIs, informes, revisiones).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "dora-third-005",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "¿Se cuenta con planes de salida/transferencia de servicios y pruebas de su factibilidad?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "dora-third-006",
+      "normative": "DORA",
+      "block": "Terceros TIC y Contratos",
+      "text": "Valora la gestión del subcontratista en cadena (consentimiento previo, transparencia, control de cambios).",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-org-001",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "¿Se ha asignado formalmente el responsable de seguridad y definidos los roles del SGSI conforme al ENS?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-org-002",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "Valora el grado de aprobación y difusión de la política de seguridad y normativa interna asociada.",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-org-003",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "¿Se realiza análisis de riesgos (MAGERIT u otro) y se mantiene actualizado para los sistemas de información?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-org-004",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "Valora la alineación de la Declaración de Aplicabilidad con las medidas del ENS (básicas, medias, altas).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-org-005",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "¿Se ha definido el cuadro de clasificación de la información y el inventario de activos asociado?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-org-006",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "Valora la formación y concienciación específica ENS impartida al personal y proveedores.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-org-007",
+      "normative": "ENS",
+      "block": "Marco Organizativo",
+      "text": "¿Se realizan auditorías bienales/cuando proceda para verificar conformidad con ENS y se gestionan no conformidades?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-op-001",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "¿Existen procedimientos de explotación seguros (gestión de cambios, copias, archivado, destrucción segura)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-op-002",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "Valora el control de acceso lógico (autenticación fuerte, trazabilidad, recertificaciones) y físico a CPDs.",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-op-003",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "¿Se gestiona la continuidad (análisis de impacto, planes de contingencia, pruebas periódicas) según nivel ENS?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-op-004",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "Valora la segregación de entornos y la defensa en profundidad (firewalls, WAF, segmentación, endurecimiento).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-op-005",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "¿Se aplican parches y se gestiona la vulnerabilidad con criterios de criticidad (CVE/CVSS) y ventanas de mantenimiento?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-op-006",
+      "normative": "ENS",
+      "block": "Marco Operacional",
+      "text": "Valora la gestión de criptografía (política, ciclo de claves, FIPS/CC, HSM cuando aplique).",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-prot-001",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "¿Se aplica mínimo privilegio, MFA y PAM para cuentas privilegiadas y accesos remotos?",
+      "weight": 4,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-prot-002",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "Valora la protección de endpoints/servidores (EDR/antimalware, listas blancas, control de dispositivos).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-prot-003",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "¿Se securizan desarrollos y servicios web (ciclo SDLC seguro, SAST/DAST, revisiones de código)?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-prot-004",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "Valora las medidas anti-ransomware (copias offline/inmutables, segmentación, EDR con rollback).",
+      "weight": 3,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-prot-005",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "¿Se protege el correo (DMARC/DKIM/SPF, filtros avanzados, sandboxing) y se forma contra phishing?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-prot-006",
+      "normative": "ENS",
+      "block": "Protección y Prevención",
+      "text": "Valora la seguridad de bases de datos (hardening, cifrado de campos sensibles, registros de acceso).",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-det-001",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "¿Se monitoriza con SIEM/UEBA y se definen casos de uso y umbrales de alerta para sistemas críticos?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-det-002",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "Valora la capacidad de respuesta a incidentes (equipo, procedimientos, forense, comunicación).",
+      "weight": 4,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-det-003",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "¿Se han definido y probado RTO/RPO por sistema y se registran resultados de pruebas?",
+      "weight": 3,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-det-004",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "Valora la calidad de los planes de comunicación de incidentes a organismos competentes y afectados.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    },
+    {
+      "id": "ens-det-005",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "¿Se realizan ejercicios y simulacros periódicos con participación de las áreas implicadas?",
+      "weight": 2,
+      "answerType": "yes_no"
+    },
+    {
+      "id": "ens-det-006",
+      "normative": "ENS",
+      "block": "Detección, Respuesta y Recuperación",
+      "text": "Valora la gestión de lecciones aprendidas y el cierre de acciones correctivas tras incidentes.",
+      "weight": 2,
+      "answerType": "scale_0_5"
+    }
+  ]
+}
